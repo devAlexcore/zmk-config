@@ -1,2 +1,18 @@
 
 .zmk/
+# macOS
+.DS_Store
+
+# ZMK build artifacts
+build/
+zephyr/
+
+# Editor
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+CLAUDE.md

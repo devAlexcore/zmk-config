@@ -1,0 +1,9 @@
+#include "sofle.dtsi"
+
+&kscan0 {
+    // Al no definir col-gpios aquí, usará los del dtsi que corregimos arriba.
+};
+
+&right_encoder {
+    status = "okay";
+};
