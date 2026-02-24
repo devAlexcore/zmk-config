@@ -43,7 +43,7 @@
 &kp ESC    &kp Q   &kp W     &kp F     &kp P      &kp G                                     &kp J      &kp L      &kp U      &kp Y     &kp SEMI  &kp BSPC
 &kp TAB    &kp A   &kp R     &kp S     &kp T      &kp D                                     &kp H      &kp N      &kp E      &kp I     &kp O     &kp SQT
 &kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &rgb_ug RGB_TOG  &kp K      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                   &kp LCTRL &kp LALT  &kp LGUI   &mo LOWER  &kp SPACE     &kp RET          &mo RAISE  &kp RCTRL  &kp RALT   &kp RGUI
+                   &kp LCTRL &kp LALT  &kp LGUI   &mo LOWER  &kp SPACE     &kp RET          &mo RAISE  &kp RGUI  &kp RALT  &kp RCTRL
             >;
         };
 
