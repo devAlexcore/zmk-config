@@ -35,14 +35,14 @@
 // |  ESC  |  Q  |  W  |  F   |  P   |  G   |                   |  J   |  L    |  U    |  Y   |   ;   | BKSPC |
 // |  TAB  |  A  |  R  |  S   |  T   |  D   |                   |  H   |  N    |  E    |  I   |   O   |   '   |
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |       |  K   |  M    |  ,    |  .   |   /   | SHIFT |
-//               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
+//               | GUI | ALT  | CTRL | LOWER| SPACE  |  | ENTER | RAISE| CTRL  | ALT   | GUI  |
             display-name = "Colemak";
             bindings = <
 &kp GRAVE &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                                     &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &none
 &kp ESC   &kp Q  &kp W    &kp F    &kp P     &kp G                                      &kp J  &kp L     &kp U     &kp Y    &kp SEMI &kp BSPC
 &kp TAB   &kp A  &kp R    &kp S    &kp T     &kp D                                      &kp H  &kp N     &kp E     &kp I    &kp O    &kp SQT
 &kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B      &kp C_MUTE &rgb_ug RGB_TOG      &kp K  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-                 &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET              &kp SPACE  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
+                 &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET              &kp SPACE  &mo RAISE  &kp RGUI &kp RALT  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
