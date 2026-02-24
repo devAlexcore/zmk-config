@@ -1,9 +1,7 @@
 #include "sofle.dtsi"
 
 &kscan0 {
-    // Al no definir col-gpios aquí, usará los del dtsi que corregimos arriba.
 };
 
-&left_encoder {
-    status = "okay";
-};
+// Encoder rotation disabled (pins unknown on PandaKB).
+// Button press works via matrix.
